@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('web.layout');
+    return view('web.pages.index');
 });

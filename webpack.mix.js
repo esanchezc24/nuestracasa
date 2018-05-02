@@ -20,17 +20,23 @@ mix.styles([ /*estilos Index*/
 		'resources/assets/css/nouislider.min.css',
 		'resources/assets/css/style.css',
 		'resources/assets/css/responsive.css',
+		/*Camera Slider Plugin*/
+		'resources/assets/plugins/camera_slider/css/camera.css',
 
 		],'public/css/app.css')
     .scripts([ /* scripts Index*/
-    	'resources/js/jquery-3.1.1.min.js',
+    	'resources/assets/js/jquery-3.1.1.min.js',
 		'resources/assets/web/assets/jquery-ui-1.12.1/jquery-ui.min.js',
-		'resources/js/bootstrap.min.js',
+		'resources/assets/js/bootstrap.min.js',
 		'resources/assets/web/assets/slick-1.6.0/slick.min.js',
 		'resources/assets/web/assets/chosen-1.6.2/chosen.jquery.min.js',
-		'resources/js/isotope.min.js',
-		'resources/js/wNumb.js',
-		'resources/js/nouislider.min.js',
-		'resources/js/global.js',
+		'resources/assets/js/isotope.min.js',
+		'resources/assets/js/wNumb.js',
+		'resources/assets/js/nouislider.min.js',
+		'resources/assets/js/global.js',
+		/*Camera Slider Plugin*/
+		/*'resources/assets/plugins/camera_slider/js/jquery.mobile.customized.min.js',*/
+		'resources/assets/plugins/camera_slider/js/jquery.easing.1.3.js',
+		'resources/assets/plugins/camera_slider/js/camera.min.js',
 		], 'public/js/app.js')    
 	
