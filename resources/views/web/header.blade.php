@@ -11,8 +11,8 @@
           <div class="clear"></div>
         </div>
         <div class="top-bar-right right">
-          <a href="login.html" class="top-bar-item"><i class="fa fa-sign-in icon"></i>Login</a>
-          <a href="register.html" class="top-bar-item"><i class="fa fa-user-plus icon"></i>Register</a>
+          <a href="#" class="top-bar-item"><i class="fa fa-sign-in icon"></i>Ingresar</a>
+          <a href="#" class="top-bar-item"><i class="fa fa-user-plus icon"></i>Registrarse</a>
           <div class="clear"></div>
         </div>
         <div class="clear"></div>
@@ -25,26 +25,13 @@
     <div class="navbar-header">
 
       <div class="header-details">
-        <div class="header-item header-search left">
-          <table>
-              <tr>
-              <td><i class="fa fa-search"></i></td>
-              <td class="header-item-text">
-                <form class="search-form">
-                  <input type="text" placeholder="Search..." />
-                  <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-              </td>
-            </tr>
-          </table>
-        </div>
         <div class="header-item header-phone left">
           <table>
             <tr>
               <td><i class="fa fa-phone"></i></td>
               <td class="header-item-text">
-                Call us anytime<br/>
-                <span>(+200) 123 456 5665</span>
+                Llámanos<br/>
+                <span>(+51) 978 434 390</span>
               </td>
             </tr>
           </table>
@@ -54,8 +41,8 @@
             <tr>
               <td><i class="fa fa-envelope"></i></td>
               <td class="header-item-text">
-                Drop us a line<br/>
-                <span>hello@homely.com</span>
+                Escríbenos<br/>
+                <span>nuestracasasac@hotmail.com</span>
               </td>
             </tr>
           </table>
@@ -80,42 +67,16 @@
         <div class="container-fixed">
 
         <div class="member-actions right">
-          <a href="user-submit-property.html" class="button small alt button-icon"><i class="fa fa-plus"></i>Submit Property</a>
+          <a href="user-submit-property.html" class="button small alt button-icon"><i class="fa fa-plus"></i>Publicar</a>
         </div>
         <ul class="nav navbar-nav right">
-          <li class="menu-item-has-children current-menu-item">
-            <a href="index.html">Home</a>
-            <ul class="sub-menu">
-              <li><a href="index.html">Simple Search</a></li>
-              <li><a href="index-slider-1.html">Slider Style 1</a></li>
-              <li><a href="index-slider-2.html">Slider Style 2</a></li>
-			  <li><a href="index-slider-3.html">Slider Style 3</a></li>
-              <li><a href="index-map.html">Google Maps Style 1</a></li>
-              <li><a href="index-map-horizontal.html">Google Maps Style 2</a></li>
-              <li class="menu-item-has-children">
-                <a href="index.html">Headers</a>
-                <ul class="sub-menu">
-                  <li><a href="index.html">Header Default</a></li>
-                  <li><a href="index-header-classic.html">Header Classic</a></li>
-                </ul>
-              </li>
-            </ul>
+          <li class="current-menu-item">
+            <a href="#">Inicio</a>
           </li>
           <li class="menu-item-has-children">
-            <a href="property-listing-grid.html">Properties</a>
+            <a href="property-listing-grid.html">Proyectos</a>
             <ul class="sub-menu">
-              <li><a href="property-listing-grid.html">Listing Grid</a></li>
-              <li><a href="property-listing-grid-sidebar.html">Listing Grid Sidebar</a></li>
-              <li><a href="property-listing-row.html">Listing Row</a></li>
-              <li><a href="property-listing-row-sidebar.html">Listing Row Sidebar</a></li>
-              <li><a href="property-listing-map.html">Listing Map</a></li>
-              <li class="menu-item-has-children">
-                <a href="property-single.html">Property Single</a>
-                <ul class="sub-menu">
-                  <li><a href="property-single.html">Property Single Classic</a></li>
-                  <li><a href="property-single-full.html">Property Single Full Width</a></li>
-                </ul>
-              </li>
+              <li><a href="property-listing-grid.html">Proyectos 360°</a></li>              
             </ul>
           </li>
           <li class="menu-item-has-children">

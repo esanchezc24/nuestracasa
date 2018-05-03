@@ -30,7 +30,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 * { margin:0px; padding:0px; }
 
-h1,h2,h3,h4,h5 { margin-top:0px; }
+h1,h2,h3,h4,h5 { margin-top:0px; font-family:'Raleway', sans-serif; }
 
 ul, ul li { list-style:none; }
 
@@ -374,13 +374,15 @@ header { background:white; width:100%; position:relative; z-index:1000; }
 
 /* TOPBAR */
 .top-bar {
-	background:#e8ebf3;
-	color:#838893;
+	/*background:#e8ebf3;
+	color:#838893;*/
+	background: #1a2b3f;
+	color: white;
 	font-size:12px;
 }
 
-.top-bar a { color:#838893; }
-.top-bar a:hover { color:#48a0dc; }
+.top-bar a { /*color:#838893;*/ color: white; }
+.top-bar a:hover { /*color:#48a0dc*/color: #a6ce3a; }
 
 .top-bar-item { 
 	padding:8px;
@@ -413,7 +415,7 @@ header { background:white; width:100%; position:relative; z-index:1000; }
 	position:relative;
 	z-index:2;
 }
-.navbar-toggle .icon-bar { background:#838893; }
+.navbar-toggle .icon-bar { background:/*#838893*/ #1a2b3f; }
 
 /* MAIN MENU */
  .navbar-collapse.collapse { position:relative; z-index:1000; }
@@ -426,21 +428,26 @@ header { background:white; width:100%; position:relative; z-index:1000; }
 
 .nav.navbar-nav li { position:relative; }
 .nav.navbar-nav li a { 
-	color:#838893; 
+	/*color:#838893; */
+	font-family:'Squada One', cursive;
+	color: white;
 	padding:29px 20px;
+	font-size: 2.2rem;
+	text-transform: uppercase;
 }
-.nav.navbar-nav li a:hover { background:transparent; color:#48a0dc; }
-.nav.navbar-nav li.current-menu-item > a { box-shadow:inset 0px -2px #48a0dc; }
+.nav.navbar-nav li a:hover { background:transparent; /*color:#48a0dc;*/ color: #a6ce3a; }
+.nav.navbar-nav li.current-menu-item > a { box-shadow:inset 0px -2px /*#48a0dc*/#a6ce3a; }
 .nav.navbar-nav li.menu-item-has-children:after {
 	content: "\f107";
     font-family: FontAwesome;
-    color:rgba(0, 0, 0, 0.5);
+    /*color:rgba(0, 0, 0, 0.5);*/
+    color: white;
 	margin-top:29px;
 	top:0;
 	right: 5px;
 	position: absolute;
 }
-.nav.navbar-nav li:hover.menu-item-has-children:after { color:#48a0dc !important; }
+.nav.navbar-nav li:hover.menu-item-has-children:after { /*color:#48a0dc*/ color: #a6ce3a!important; }
 .nav.navbar-nav li:last-child a { padding-right:0; }
 
 /* SUB MENU */
@@ -459,7 +466,7 @@ header { background:white; width:100%; position:relative; z-index:1000; }
 	display:block; 
 	padding:10px;
 }
-.nav.navbar-nav li .sub-menu li a:hover { color:white !important; }
+.nav.navbar-nav li .sub-menu li a:hover { /*color:white*/color:#a6ce3a!important; }
 .nav.navbar-nav li .sub-menu li.menu-item-has-children:after {
 	content: "\f105";
 	color:rgba(255, 255, 255, 0.2);

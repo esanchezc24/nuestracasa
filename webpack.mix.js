@@ -20,8 +20,12 @@ mix.styles([ /*estilos Index*/
 		'resources/assets/css/nouislider.min.css',
 		'resources/assets/css/style.css',
 		'resources/assets/css/responsive.css',
+		'resources/assets/css/fonts_familysquadaone.css',
 		/*Camera Slider Plugin*/
 		'resources/assets/plugins/camera_slider/css/camera.css',
+		/*Owl Carousel */
+		'resources/assets/plugins/carousel/css/owl.carousel.min.css',
+		'resources/assets/plugins/carousel/css/owl.theme.default.min.css',
 
 		],'public/css/app.css')
     .scripts([ /* scripts Index*/
@@ -38,5 +42,7 @@ mix.styles([ /*estilos Index*/
 		/*'resources/assets/plugins/camera_slider/js/jquery.mobile.customized.min.js',*/
 		'resources/assets/plugins/camera_slider/js/jquery.easing.1.3.js',
 		'resources/assets/plugins/camera_slider/js/camera.min.js',
+		/*Owl Carousel*/
+		'resources/assets/plugins/carousel/js/owl.carousel.min.js',
 		], 'public/js/app.js')    
 	

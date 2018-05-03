@@ -151,6 +151,19 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+	if ($(window).scrollTop() > 140) { 
+		$('.header-classic .header-background').addClass('fixed');
+	}
+
+
+	$(window).bind('scroll', function () {
+		if ($(window).scrollTop() > 140) {
+		    $('.header-classic .header-background').addClass('fixed');
+		} else {
+		    $('.header-classic .header-background').removeClass('fixed');
+		}
+	});
+
 	
 	/***************************************************************************/
 	//INITIALIZE BLOG CREATIVE
