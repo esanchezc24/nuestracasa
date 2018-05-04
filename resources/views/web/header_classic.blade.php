@@ -26,7 +26,7 @@
 
 		    <!-- logo -->
 		    <div class="navbar-header">
-		        <a class="navbar-brand" href="#"><img src="{{ asset('images/logo.jpg')}}" alt="NuestraCasa" style="width: 45%; height: auto" /></a>
+		        <a class="navbar-brand" href="#"><img src="{{ asset('images/logo.jpg')}}" alt="NuestraCasa"/></a>
 		    </div>
 
 		    <!-- nav toggle -->

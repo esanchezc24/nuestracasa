@@ -1,4 +1,5 @@
 <section class="subheader subheader-slider subheader-slider-with-filter">
+    <!--Begin slider-->
   	<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
         <div data-thumb="../images/slider-img2.jpg" data-src="../images/slider-img2.jpg">
         </div>
@@ -17,4 +18,5 @@
 
         </div>
     </div>
+    <!--End Slider-->
 </section>

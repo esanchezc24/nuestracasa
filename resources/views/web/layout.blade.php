@@ -11,8 +11,7 @@
   <title>Nuestra Casa</title>
 
   <!-- CSS file links -->
-  <link href="{{ asset('css/app.css') }}" rel="stylesheet" media="all">
-  @yield('styles')
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet" media="all">  
   <style type="text/css">
     .header-background{
       padding: 0;
@@ -24,9 +23,34 @@
       -o-transition: all 0.3s ease-out;
       transition: all 0.3s ease-out;
     }
-    .header-classic .header-background.fixed { position:fixed; top:0; left:0; margin-top:0; width:100%; border-radius:0px;}
+    .header-classic .header-background.fixed { 
+      position:fixed; 
+      top:0; 
+      left:0; 
+      margin-top:0; 
+      width:100%; 
+      border-radius:0px;
+    }
+    .navbar-brand {
+      float: left;
+      height: 50px;
+      font-size: 18px;
+      line-height: 20px;
+      padding: 1px 0;
+    }
+    .navbar-brand img {
+      width: 50%;
+      height: auto;
+    }
+  </style>
+  <style type="text/css">
+    @font-face {
+      font-family: Big Noddle Titling;
+      src: url({{ asset('fonts/big_noodle_titling.ttf') }});
+    }
   </style>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+  @yield('styles')
 </head>
 <body>
 
