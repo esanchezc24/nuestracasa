@@ -118,7 +118,7 @@ a {
 a:hover { color:#68b4e8; text-decoration:none; }
 
 .shadow-hover { transition: all 0.4s linear; }
-.shadow-hover:hover { box-shadow:0px 10px 25px rgba(0, 0, 0, 0.15); }
+.shadow-hover:hover { box-shadow:0px 10px 25px rgba(0, 0, 0, 0.5); }
 
 .icon { margin-right:4px; }
 
@@ -1777,8 +1777,9 @@ header { background:white; width:100%; position:relative; z-index:1000; }
  /* 04 FOOTER
 /*====================================================================================*/
 footer { 
-	background:#323746; 
-	padding:60px 0px;
+	/*background:#323746; */
+	background: #1a2a3f;
+	padding:60px 0px 0px;
 	color:#8e95ac;
 	font-size:13px;
 	position:relative;
@@ -1789,7 +1790,7 @@ footer h4 { color:white; }
 
 footer .divider { background:rgba(255, 255, 255, 0.1); }
 
-.footer-logo { display:block; margin-bottom:20px; }
+.footer-logo { display:block; /*margin-bottom:20px;*/ margin: 30% 10%; text-align: center;}
 .footer-logo img { width:150px; }
 
 .from-the-blog h3 {
@@ -1798,11 +1799,17 @@ footer .divider { background:rgba(255, 255, 255, 0.1); }
 }
 
 .bottom-bar {
-	background:#262a35;
-	color:#8e95ac;
+	/*background:#262a35;*/
+	background: #12243c;
+	/*color:#8e95ac;*/
 	padding:20px 0px;
 	text-align:center;
-	font-size:13px;
+	font-size:14px;
 	position:relative;
 	z-index:10;
+	color: white;
+}
+
+.bottom-bar a{
+	color: #a6ce39;
 }

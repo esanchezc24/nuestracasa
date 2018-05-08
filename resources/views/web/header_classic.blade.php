@@ -43,20 +43,21 @@
 		          <a href="#" class="button small alt button-icon"><i class="fa fa-plus"></i>Publicar Proyecto</a>
 		        </div>
 		        <ul class="nav navbar-nav right">
-		          <li class="current-menu-item">
-		            <a href="#">Inicio</a>
+		          <li class="{{ Request::is('index') ? 'current-menu-item' : '' }}">
+		            <a href="{{ route('index')}}">Inicio</a>
 		          </li>
-		          <li class="menu-item-has-children">
+		          <li class="menu-item-has-children {{ Request::is('proyectos') ? 'current-menu-item' : (Request::is('proyectos') ? 'current-menu-item' : '') }}">
 		            <a href="#">Proyectos</a>
 		            <ul class="sub-menu">
+		            	<li><a href="{{ route('proyectos')}}">Proyectos</a></li>
 		              <li><a href="#">Proyectos 360°</a></li>
 		            </ul>
 		          </li>
-		          <li class="">
-		            <a href="#">Alquiler</a>
+		          <li class="{{ Request::is('alquiler') ? 'current-menu-item' : '' }}">
+		            <a href="{{ route('alquiler')}}">Alquiler</a>
 		          </li>
-		          <li class="">
-		            <a href="#">Venta</a>
+		          <li class="{{ Request::is('venta') ? 'current-menu-item' : '' }}">
+		            <a href="{{ route('venta')}}">Venta</a>
 		          </li>
 		          <li class="menu-item-has-children">
 		            <a href="#">Directorio</a>

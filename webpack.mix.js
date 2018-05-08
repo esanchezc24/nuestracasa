@@ -21,6 +21,8 @@ mix.styles([ /*estilos Index*/
 		'resources/assets/css/style.css',
 		'resources/assets/css/responsive.css',
 		'resources/assets/css/fonts_familysquadaone.css',
+		/*Estilos propios*/
+		'resources/assets/css/new-styles.css',
 		/*Camera Slider Plugin*/
 		'resources/assets/plugins/camera_slider/css/camera.css',
 		/*Owl Carousel */

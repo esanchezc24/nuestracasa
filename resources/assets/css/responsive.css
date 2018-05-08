@@ -162,6 +162,10 @@
   .subheader.subheader-slider .slider-advanced .slide-price { margin-left:5%; }
   .subheader.subheader-slider .slider-advanced .slide-content { margin-left:5%; width:90%; }
 
+  .footer-logo{
+    margin: 0;
+  }
+
 }
 
 @media only screen and (max-width: 589px) {

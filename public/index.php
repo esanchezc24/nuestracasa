@@ -19,8 +19,7 @@
 |
 */
 
-//require __DIR__.'/../bootstrap/autoload.php'; /*linux*/
-require __DIR__.'/bootstrap/autoload.php'; /*windows*/
+require __DIR__.'/../bootstrap/autoload.php'; 
 /*
 |--------------------------------------------------------------------------
 | Turn On The Lights
@@ -33,8 +32,7 @@ require __DIR__.'/bootstrap/autoload.php'; /*windows*/
 |
 */
 
-//$app = require_once __DIR__.'/../bootstrap/app.php'; /*linux*/
-$app = require_once __DIR__.'/../bootstrap/app.php'; /*windows*/
+$app = require_once __DIR__.'/../bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------

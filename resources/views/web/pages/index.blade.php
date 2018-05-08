@@ -1,117 +1,7 @@
 @extends('web.layout')
 
 @section('styles')
-	<style type="text/css">
-		.services{
-			padding-top: 40px;
-		}
-		.white{
-			color: white;
-		}
-		.module-header {
-		    margin-bottom: 20px;
-		    text-align: center;
-		}
-		.item-slide{
-			height: 250px!important;
-		}
-		.properties .item-slide{
-			height: 250px!important;
-		}
-		.property-price{
-			position: absolute;
-		    top: 10px;
-		    left: -5px;
-		    bottom: inherit;
-		    background-color: #df4a43;
-		    color: #fff;
-		    padding: 2px 20px 2px 10px;
-		    z-index: 10;
-		    -webkit-border-radius: 0 4px 4px 0;
-		    -moz-border-radius: 0 4px 4px 0;
-		    border-radius: 0 4px 4px 0;
-		}
-		.property-price i {
-		    margin-right: 8px;
-		    -webkit-opacity: 0.6;
-		    -moz-opacity: 0.6;
-		    opacity: 0.6;
-		}
-		.property-price:before {
-		    content: " ";
-		    position: absolute;
-		    left: 0;
-		    bottom: -6px;
-		    border-color: rgba(0, 0, 0, 0) #751814 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-		    border-style: solid;
-		    border-width: 0 6px 6px 0;
-		    height: 0;
-		    width: 0;
-		}
-		.property-price{
-			font-size: 14px;
-		}
-		.property-price span{
-			display: block;
-		    font-size: 16pt;
-		    font-weight: 700;
-		    margin-top: -4px;
-		}
-		.property-content {
-		    padding: 80px 5% 5%;
-		}
-		.property.property-hidden-content .property-content h4{
-			font-size: 15px!important;
-		}
-		.property.property-hidden-content .property-content {
-		    transition: all 0.4s;
-		    position: absolute;
-		    bottom: 0;
-		    width: 100%;
-		    height: 100%;
-		    opacity: 0;
-		    background: rgba(26,43,63, 0.7);
-		    z-index: 10;
-		    color: white;
-		    display: block;
-		}
-		.property-color-bar {
-    		background: #df4a43; 
-    	}
-    	.property-cat{
-    		background-size: 100% 100%;
-    		height: 280px;
-    	}
-    	.property .property-img img{
-		    height: 280px!important;
-		    width: 100%
-		}
-    	.more-properties-btn{
-    		background-color: #df4a43!important;
-    	}
-    	.nosotros {
-		    background-image: url(images/servicios/01.jpg);
-		}
-		.revista {
-		    background-image: url(images/servicios/02.jpg);
-		}
-		.nuestracasa-tv {
-		    background-image: url(images/servicios/03.jpg);
-		}
-		.alertaroja{
-			background-image: url(images/servicios/04.jpg);
-		}
-
-		.news .property-content{
-			padding: 5%;
-		}
-
-		.news .property-content .property-title{
-			margin-bottom: 0;
-			padding-bottom: 0;
-			border-bottom: 0px solid rgba(0, 0, 0, 0.09);
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="{{ asset('css/index.css')}}">
 @endsection
 
 @section('content')
@@ -163,7 +53,7 @@
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 					          	</div>
 					          	<div class="property-color-bar"></div>
-					          	<img class="item-slide" src="images/projects/1.jpg" alt="" />
+					          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 					      	</a>
 					    </div>
 				    </div>
@@ -190,7 +80,7 @@
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
 					          	<div class="property-color-bar"></div>
-					          	<img class="item-slide" src="images/projects/2.jpg" alt="" />
+					          	<img class="item-slide" src="{{ asset('images/projects/portada/2.jpg') }}" alt="" />
 					      	</a>
 					    </div>
 					</div>
@@ -217,7 +107,7 @@
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
 					          	<div class="property-color-bar"></div>
-					          	<img class="item-slide" src="images/projects/3.jpg" alt="" />
+					          	<img class="item-slide" src="{{ asset('images/projects/portada/3.jpg') }}" alt="" />
 					      	</a>
 					    </div>
 					</div>
@@ -244,7 +134,7 @@
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
 					          	<div class="property-color-bar"></div>
-					          	<img class="item-slide" src="images/projects/4.jpg" alt="" />
+					          	<img class="item-slide" src="{{ asset('images/projects/portada/4.jpg') }}" alt="" />
 					      	</a>
 					    </div>
 					</div>
@@ -271,7 +161,7 @@
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
 					          	<div class="property-color-bar"></div>
-					          	<img class="item-slide" src="images/projects/5.jpg" alt="" />
+					          	<img class="item-slide" src="{{ asset('images/projects/portada/5.jpg') }}" alt="" />
 					      	</a>
 					    </div>
 					</div>
@@ -298,7 +188,7 @@
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
 					          	<div class="property-color-bar"></div>
-					          	<img class="item-slide" src="images/projects/1.jpg" alt="" />
+					          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 					      	</a>
 					    </div>
 					</div>
@@ -339,7 +229,7 @@
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
 				          	<div class="property-color-bar"></div>
-				          	<img class="item-slide" src="images/projects/1.jpg" alt="" />
+				          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>
@@ -366,7 +256,7 @@
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
 				          	<div class="property-color-bar"></div>
-				          	<img class="item-slide" src="images/projects/2.jpg" alt="" />
+				          	<img class="item-slide" src="{{ asset('images/projects/portada/2.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>
@@ -393,7 +283,7 @@
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
 				          	<div class="property-color-bar"></div>
-				          	<img class="item-slide" src="images/projects/3.jpg" alt="" />
+				          	<img class="item-slide" src="{{ asset('images/projects/portada/3.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>
@@ -420,7 +310,7 @@
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
 				          	<div class="property-color-bar"></div>
-				          	<img class="item-slide" src="images/projects/4.jpg" alt="" />
+				          	<img class="item-slide" src="{{ asset('images/projects/portada/4.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>				
@@ -463,7 +353,7 @@
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
 				          	<div class="property-color-bar"></div>
-				          	<img class="item-slide" src="images/projects/1.jpg" alt="" />
+				          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>
@@ -490,7 +380,7 @@
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
 				          	<div class="property-color-bar"></div>
-				          	<img class="item-slide" src="images/projects/2.jpg" alt="" />
+				          	<img class="item-slide" src="{{ asset('images/projects/portada/2.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>
@@ -517,7 +407,7 @@
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
 				          	<div class="property-color-bar"></div>
-				          	<img class="item-slide" src="images/projects/3.jpg" alt="" />
+				          	<img class="item-slide" src="{{ asset('images/projects/portada/3.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>
@@ -544,7 +434,7 @@
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
 				          	<div class="property-color-bar"></div>
-				          	<img class="item-slide" src="images/projects/4.jpg" alt="" />
+				          	<img class="item-slide" src="{{ asset('images/projects/portada/4.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>				
@@ -595,35 +485,35 @@
 			    <div class="item">
 			    	<div class="property">
 				      	<a href="#" class="property-img">
-				          	<img class="" src="images/servicios/bancos/1.jpg" alt="" />
+				          	<img class="" src="{{ asset('images/bancos/index/1.jpg') }}" alt="" />
 				      	</a>
 				    </div>
 			    </div>
 			    <div class="item">
 			    	<div class="property">
 				      	<a href="#" class="property-img">
-				          	<img class="" src="images/servicios/bancos/2.jpg" alt="" />
+				          	<img class="" src="{{ asset('images/bancos/index/2.jpg') }}" alt="" />
 				      	</a>
 				    </div>
 				</div>
 			    <div class="item">
 			    	<div class="property">
 				      	<a href="#" class="property-img">
-				          	<img class="" src="images/servicios/bancos/3.jpg" alt="" />
+				          	<img class="" src="{{ asset('images/bancos/index/3.jpg') }}" alt="" />
 				      	</a>
 				    </div>
 				</div>
 			    <div class="item">
 			    	<div class="property">
 				      	<a href="#" class="property-img">
-				          	<img class="" src="images/servicios/bancos/4.jpg" alt="" />
+				          	<img class="" src="{{ asset('images/bancos/index/4.jpg') }}" alt="" />
 				      	</a>
 				    </div>
 				</div>
 			    <div class="item">
 			    	<div class="property">
 				      	<a href="#" class="property-img">
-				          	<img class="" src="images/servicios/bancos/5.jpg" alt="" />
+				          	<img class="" src="{{ asset('images/bancos/index/5.jpg') }}" alt="" />
 				      	</a>
 				    </div>
 				</div>

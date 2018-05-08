@@ -11,6 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('web.pages.index');
-});
+Route::get('/', [
+    'uses' => 'web\WebController@index',
+    'as' => '/',]);
+
+Route::get('index', [
+    'uses' => 'web\WebController@index',
+    'as' => 'index',]);
+
+Route::get('proyectos', [
+    'uses' => 'web\WebController@proyectos',
+    'as' => 'proyectos',]);
+
+Route::get('alquiler', [
+    'uses' => 'web\WebController@alquiler',
+    'as' => 'alquiler',]);
+
+Route::get('venta', [
+    'uses' => 'web\WebController@venta',
+    'as' => 'venta',]);
+
+Route::get('detalle-proyecto', [
+    'uses' => 'web\WebController@detalle_proyecto',
+    'as' => 'detalle-proyecto',]);
