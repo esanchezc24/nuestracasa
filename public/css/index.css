@@ -107,3 +107,10 @@
 	padding-bottom: 0;
 	border-bottom: 0px solid rgba(0, 0, 0, 0.09);
 }
+
+.property-title h4 {
+    width: 100%;
+    white-space: inherit;
+    overflow: inherit;
+    text-overflow: ellipsis;
+}

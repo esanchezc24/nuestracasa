@@ -51,7 +51,7 @@
 
 
 <!-- JavaScript file links -->
-<script src="js/app.js"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 @yield('scripts')
 
 

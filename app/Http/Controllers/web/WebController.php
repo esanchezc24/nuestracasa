@@ -32,6 +32,28 @@ class WebController extends Controller
         return view('web.pages.detalle_proyecto');
     }
 
+    public function constructoras()
+    {
+        return view('web.pages.directorio');
+    }
+
+    public function proveedores()
+    {
+        return view('web.pages.directorio');
+    }
+
+    public function inmobiliarias()
+    {
+        return view('web.pages.directorio');
+    }
+
+    public function detalle_directorio()
+    {
+        return view('web.pages.detalle_directorio');
+    }
+
+
+
     /**
      * Show the form for creating a new resource.
      *

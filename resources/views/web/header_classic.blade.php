@@ -46,7 +46,7 @@
 		          <li class="{{ Request::is('index') ? 'current-menu-item' : '' }}">
 		            <a href="{{ route('index')}}">Inicio</a>
 		          </li>
-		          <li class="menu-item-has-children {{ Request::is('proyectos') ? 'current-menu-item' : (Request::is('proyectos') ? 'current-menu-item' : '') }}">
+		          <li class="menu-item-has-children {{ Request::is('proyectos') ? 'current-menu-item' : '' }}">
 		            <a href="#">Proyectos</a>
 		            <ul class="sub-menu">
 		            	<li><a href="{{ route('proyectos')}}">Proyectos</a></li>
@@ -62,9 +62,9 @@
 		          <li class="menu-item-has-children">
 		            <a href="#">Directorio</a>
 		            <ul class="sub-menu">
-		              <li><a href="#">Constructoras</a></li>
-		              <li><a href="#">Inmobiliarias</a></li>
-		              <li><a href="#">Proveedores</a></li>
+		              <li><a href="{{ route('constructoras')}}">Constructoras</a></li>
+		              <li><a href="{{ route('inmobiliarias')}}">Inmobiliarias</a></li>
+		              <li><a href="{{ route('proveedores')}}">Proveedores</a></li>
 		            </ul>
 		          </li>
 		          <li class="">

@@ -182,7 +182,6 @@
 					      	</a>
 					      	<a href="#" class="property-img">
 					          	<div class="img-fade"></div>
-					          	<div class="property-tag button alt featured">Featured</div>
 					          	<div class="property-tag button status">For Sales</div>
 					          	<div class="property-price">
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
@@ -316,7 +315,7 @@
 				</div>				
 			</div>
 			<div class="center">
-				<a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i> View More Properties</a>
+				<a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i>Ver Más Proyectos</a>
 			</div>
 		</div>
 	</section>
@@ -440,13 +439,13 @@
 				</div>				
 			</div>
 			<div class="center">
-				<a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i> View More Properties</a>
+				<a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i> Ver Más Proyectos</a>
 			</div>
 		</div>
 	</section>
 	<!--End Destacados en Venta-->
 
-	<section class="module property-categories">
+	<section class="module property-categories no-padding">
 	  <div class="container">
 
 	    <div class="module-header">
@@ -536,7 +535,7 @@
 
 	    <div class="row">
 
-	        <div class="col-lg-4 col-md-4">
+	        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 	          <div class="property shadow-hover">
 	            <a href="#" class="property-img">
 	              <div class="img-fade"></div>
@@ -560,7 +559,7 @@
 	          </div>
 	        </div>
 
-	        <div class="col-lg-4 col-md-4">
+	        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 	          <div class="property shadow-hover">
 	            <a href="#" class="property-img">
 	              <div class="img-fade"></div>
@@ -584,7 +583,7 @@
 	          </div>
 	        </div>
 
-	        <div class="col-lg-4 col-md-4">
+	        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 	          <div class="property shadow-hover">
 	            <a href="#" class="property-img">
 	              <div class="img-fade"></div>
@@ -609,7 +608,7 @@
 	        </div>
 	    </div><!-- end row -->
 
-	    <div class="center"><a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i> View More Properties</a></div>
+	    <div class="center"><a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i> Ver Más Noticias</a></div>
 
 	  </div><!-- end container -->
 	</section>

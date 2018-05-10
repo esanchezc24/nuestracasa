@@ -20,7 +20,7 @@
 	    
 	        <div class="col-lg-6 col-md-6">
 	          <div class="property shadow-hover">
-	            <a href="{{ route('detalle-proyecto')}}" class="property-img">
+	            <a href="{{ route('detalle-proyecto')  }}" class="property-img">
 	              <div class="img-fade"></div>
 	              <div class="property-label {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
 						<span><i class="fa fa-home"></i>PROYECTO</span> 	
@@ -50,7 +50,109 @@
 					</table>
 	            </div>
 	          </div>
-	        </div>		
+	        </div>
+
+	        <div class="col-lg-6 col-md-6">
+	          <div class="property shadow-hover">
+	            <a href="{{ route('detalle-proyecto')  }}" class="property-img">
+	              <div class="img-fade"></div>
+	              <div class="property-label {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+						<span><i class="fa fa-home"></i>PROYECTO</span> 	
+					</div>
+	              <div class="property-tag button status {{ Request::is('proyectos') ? 'orange-button' : (Request::is('alquiler') ? 'green-button' : (Request::is('venta') ? 'blue-button' : '')) }}">Contactar</div>	              
+	              <div class="property-color-bar"></div>
+	              <img src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
+	            </a>
+	            <div class="business">
+	            	<a href="index.html">
+	            		<img src="{{ asset('images/inmobiliarias/logo/1.jpg') }}">
+	            	</a>					
+				</div>
+	            <div class="property-content {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+	              	<div class="property-title">
+              			<a href="#">ALQUILO DEPA AMOBLADO EN URB. EL GOLF <p>Trujillo - La Libertad - Perú</p></a>
+                		<p class="property-price">$ 150,000</p>	              		
+	              	</div>
+	            </div>
+	            <div class="property-footer">
+					<table class="property-details">
+						<tr>
+						  <td><i class="fa fa-bed"></i> 3 camas</td>
+						  <td><i class="fa fa-bath"></i> 2 baños</td>
+						  <td><i class="fa fa-expand"></i> 25,000 m<sup>2</sup></td>
+						</tr>
+					</table>
+	            </div>
+	          </div>
+	        </div>
+
+	        <div class="col-lg-6 col-md-6">
+	          <div class="property shadow-hover">
+	            <a href="{{ route('detalle-proyecto')  }}" class="property-img">
+	              <div class="img-fade"></div>
+	              <div class="property-label {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+						<span><i class="fa fa-home"></i>PROYECTO</span> 	
+					</div>
+	              <div class="property-tag button status {{ Request::is('proyectos') ? 'orange-button' : (Request::is('alquiler') ? 'green-button' : (Request::is('venta') ? 'blue-button' : '')) }}">Contactar</div>	              
+	              <div class="property-color-bar"></div>
+	              <img src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
+	            </a>
+	            <div class="business">
+	            	<a href="index.html">
+	            		<img src="{{ asset('images/inmobiliarias/logo/1.jpg') }}">
+	            	</a>					
+				</div>
+	            <div class="property-content {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+	              	<div class="property-title">
+              			<a href="#">ALQUILO DEPA AMOBLADO EN URB. EL GOLF <p>Trujillo - La Libertad - Perú</p></a>
+                		<p class="property-price">$ 150,000</p>	              		
+	              	</div>
+	            </div>
+	            <div class="property-footer">
+					<table class="property-details">
+						<tr>
+						  <td><i class="fa fa-bed"></i> 3 camas</td>
+						  <td><i class="fa fa-bath"></i> 2 baños</td>
+						  <td><i class="fa fa-expand"></i> 25,000 m<sup>2</sup></td>
+						</tr>
+					</table>
+	            </div>
+	          </div>
+	        </div>
+
+	        <div class="col-lg-6 col-md-6">
+	          <div class="property shadow-hover">
+	            <a href="{{ route('detalle-proyecto')  }}" class="property-img">
+	              <div class="img-fade"></div>
+	              <div class="property-label {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+						<span><i class="fa fa-home"></i>PROYECTO</span> 	
+					</div>
+	              <div class="property-tag button status {{ Request::is('proyectos') ? 'orange-button' : (Request::is('alquiler') ? 'green-button' : (Request::is('venta') ? 'blue-button' : '')) }}">Contactar</div>	              
+	              <div class="property-color-bar"></div>
+	              <img src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
+	            </a>
+	            <div class="business">
+	            	<a href="index.html">
+	            		<img src="{{ asset('images/inmobiliarias/logo/1.jpg') }}">
+	            	</a>					
+				</div>
+	            <div class="property-content {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+	              	<div class="property-title">
+              			<a href="#">ALQUILO DEPA AMOBLADO EN URB. EL GOLF <p>Trujillo - La Libertad - Perú</p></a>
+                		<p class="property-price">$ 150,000</p>	              		
+	              	</div>
+	            </div>
+	            <div class="property-footer">
+					<table class="property-details">
+						<tr>
+						  <td><i class="fa fa-bed"></i> 3 camas</td>
+						  <td><i class="fa fa-bath"></i> 2 baños</td>
+						  <td><i class="fa fa-expand"></i> 25,000 m<sup>2</sup></td>
+						</tr>
+					</table>
+	            </div>
+	          </div>
+	        </div>
 		
 			<div class="pagination">
 		        <div class="center">

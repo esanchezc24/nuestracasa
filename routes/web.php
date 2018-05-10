@@ -34,3 +34,19 @@ Route::get('venta', [
 Route::get('detalle-proyecto', [
     'uses' => 'web\WebController@detalle_proyecto',
     'as' => 'detalle-proyecto',]);
+
+Route::get('constructoras', [
+    'uses' => 'web\WebController@constructoras',
+    'as' => 'constructoras',]);
+
+Route::get('proveedores', [
+    'uses' => 'web\WebController@proveedores',
+    'as' => 'proveedores',]);
+
+Route::get('inmobiliarias', [
+    'uses' => 'web\WebController@inmobiliarias',
+    'as' => 'inmobiliarias',]);
+
+Route::get('detalle-directorio', [
+    'uses' => 'web\WebController@detalle_directorio',
+    'as' => 'detalle-directorio',]);

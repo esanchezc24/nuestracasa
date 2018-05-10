@@ -21,6 +21,8 @@ mix.styles([ /*estilos Index*/
 		'resources/assets/css/style.css',
 		'resources/assets/css/responsive.css',
 		'resources/assets/css/fonts_familysquadaone.css',
+		/*Cozy Real Estate font*/
+		'resources/assets/css/cozy-real-estate-font.css',
 		/*Estilos propios*/
 		'resources/assets/css/new-styles.css',
 		/*Camera Slider Plugin*/
