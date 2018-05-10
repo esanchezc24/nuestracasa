@@ -1,67 +1,13 @@
 @extends('web.layout')
 
 @section('styles')
-	<link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
 	<style type="text/css">
-		@media only screen and (min-width: 767px){
-			.agent-single .agent-img {
-			width: 35%;
-			}
-			.agent-single .agent-content {
-			    width: 60%;
-			}
-		}
-		.property-price{
-			position: absolute;
-		    top: 10px;
-		    left: -5px;
-		    bottom: inherit;
-		    background-color: #df4a43;
-		    color: #fff;
-		    padding: 2px 20px 2px 10px;
-		    z-index: 10;
-		    -webkit-border-radius: 0 4px 4px 0;
-		    -moz-border-radius: 0 4px 4px 0;
-		    border-radius: 0 4px 4px 0;
-		}
-		.property-price i {
-		    margin-right: 8px;
-		    -webkit-opacity: 0.6;
-		    -moz-opacity: 0.6;
-		    opacity: 0.6;
-		}
-		.property-price:before {
-		    content: " ";
-		    position: absolute;
-		    left: 0;
-		    bottom: -6px;
-		    border-color: rgba(0, 0, 0, 0) #751814 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-		    border-style: solid;
-		    border-width: 0 6px 6px 0;
-		    height: 0;
-		    width: 0;
-		}
-		.property-price{
-			font-size: 14px;
-		}
-		.property-price span{
-			display: block;
-		    font-size: 16pt;
-		    font-weight: 700;
-		    margin-top: -4px;
-		}
 		.property .property-img img{
 		    height: 280px!important;
 		    width: 100%
 		}
-		.property-content {
-		    padding: 80px 5% 5%;
-		}
-		.property-title h4 {
-		    width: 100%;
-		    white-space: inherit;
-		    overflow: inherit;
-		    text-overflow: ellipsis;
+		.button{
+			cursor: inherit;
 		}
 	</style>
 @endsection
@@ -84,32 +30,34 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 
+				<!--Begin Datos Empresa-->
 				<div class="agent agent-single">
-			        <a href="#" class="agent-img">
-			          <div class="img-fade"></div>
-			          <img class="hex" src="images/hexagon.png" alt="" />
-			          <img src="images/agent-img1.jpg" alt="" />
+			        <a href="#" class="agent-img text-center">
+			          <img class="hex" src="{{ asset('images/hexagon.png') }}" alt="" />
+			          <img src="{{ asset('images/inmobiliarias/logo/1.jpg') }}" alt="" />
 			        </a>
 			        <div class="agent-content">
 			              <div class="agent-details">
-			                <h4><a href="#">Sarah Parker</a></h4>
-			                <p><i class="fa fa-tag icon"></i>Title: <span>Selling Agent</span></p>
-			                <p><i class="fa fa-envelope icon"></i>Email: <span>sparker@homely.com</span></p>
-			                <p><i class="fa fa-phone icon"></i>Office: <span>(123) 456-6789 / (123) 456-6789</span></p>
-			                <p><i class="fa fa-mobile icon"></i>Mobile: <span>(123) 456-6789</span></p>
-			                <p><i class="fa fa-skype icon"></i>Skype: <span>sarah.parker</span></p>
+			                <h4><a href="#">MCH INMOBILIARIA SAC</a><p><small>Trujillo - Peru</small></p></h4>
+			                <p><i class="fa fa-map-marker icon"></i>Dirección: <span>Av. América Norte N°1550 - Urb. Las Quintanas</span></p>
+			                <p><i class="fa fa-envelope icon"></i>Correo: <span><a href="mailto:ventas@repalsaperu.com">ventas@repalsaperu.com</a></span></p>
+			                <p><i class="fa fa-phone icon"></i>Teléfono: <span>(123) 456-6789 / (123) 456-6789</span></p>
+			                <p><i class="fa fa-mobile icon"></i>Celular: <span>(123) 456-6789</span></p>
 			              </div>
 			              <div class="center">
 			                <ul class="social-icons circle">
-			                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			                	<li><a href="#"><i class="fa fa-globe"></i></a></li>
+			                	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			                	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 			                </ul>
 			              </div><br/>
-			              <div class="button alt button-icon"><i class="fa fa-home"></i>24 Assigned Properties</div>
+			              <div class="button alt button-icon"><i class="fa fa-home"></i>24 Propiedades Asignadas</div>
 			        </div>
 			        <div class="clear"></div>
 			    </div>
+			    <!--End Datos Empresa-->
 
+				<!--Begin Description-->
 			    <div class="widget property-single-item agent-description content">
 			        <h4>
 			          <span>Descripción</span> <img class="divider-hex" src="images/divider-half.png" alt="" />
@@ -123,126 +71,14 @@
 			        Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. 
 			        Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, 
 			        a consequat purus viverra a.</p>
-		      	</div><!-- end description -->
+		      	</div>
+		      	<!-- End description -->
 
+				@include('web.blocks.propiedades_asignadas')
 
-				<div class="widget property-single-item agent-properties">
-			        <h4>
-			          <span>Propiedades Asignadas</span> <img class="divider-hex" src="images/divider-half.png" alt="" />
-			        </h4>
+				@include('web.blocks.publicidad')
 
-			        <div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="property property-hidden-content">
-						      	<a href="#" class="property-content">
-						        	<div class="property-title">
-						          		<h4>Residencial La Torre de San Francisco</h4>
-						          		<p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
-						        	</div>
-						        	<table class="property-details">
-						          		<tr>
-						            		<td><i class="fa fa-bed"></i> 3 Beds</td>
-						            		<td><i class="fa fa-tint"></i> 2 Baths</td>
-						            		<td><i class="fa fa-expand"></i> 25,000 m2</td>
-						          		</tr>
-						        	</table>
-						      	</a>
-						      	<a href="#" class="property-img">
-						          	<div class="img-fade"></div>
-						          	<!--div class="property-tag button alt featured">Featured</div-->
-						          	<div class="property-tag button status">For Sales</div>
-						          	<div class="property-price">
-						          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
-						          	</div>
-						          	<div class="property-color-bar"></div>
-						          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
-						      	</a>
-						    </div>						
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="property property-hidden-content">
-						      	<a href="#" class="property-content">
-						        	<div class="property-title">
-						          		<h4>Residencial La Torre de San Francisco</h4>
-						          		<p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
-						        	</div>
-						        	<table class="property-details">
-						          		<tr>
-						            		<td><i class="fa fa-bed"></i> 3 Beds</td>
-						            		<td><i class="fa fa-tint"></i> 2 Baths</td>
-						            		<td><i class="fa fa-expand"></i> 25,000 m2</td>
-						          		</tr>
-						        	</table>
-						      	</a>
-						      	<a href="#" class="property-img">
-						          	<div class="img-fade"></div>
-						          	<!--div class="property-tag button alt featured">Featured</div-->
-						          	<div class="property-tag button status">For Sales</div>
-						          	<div class="property-price">
-						          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
-						          	</div>
-						          	<div class="property-color-bar"></div>
-						          	<img class="item-slide" src="{{ asset('images/projects/portada/2.jpg') }}" alt="" />
-						      	</a>
-						    </div>						
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="property property-hidden-content">
-						      	<a href="#" class="property-content">
-						        	<div class="property-title">
-						          		<h4>Residencial La Torre de San Francisco</h4>
-						          		<p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
-						        	</div>
-						        	<table class="property-details">
-						          		<tr>
-						            		<td><i class="fa fa-bed"></i> 3 Beds</td>
-						            		<td><i class="fa fa-tint"></i> 2 Baths</td>
-						            		<td><i class="fa fa-expand"></i> 25,000 m2</td>
-						          		</tr>
-						        	</table>
-						      	</a>
-						      	<a href="#" class="property-img">
-						          	<div class="img-fade"></div>
-						          	<!--div class="property-tag button alt featured">Featured</div-->
-						          	<div class="property-tag button status">For Sales</div>
-						          	<div class="property-price">
-						          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
-						          	</div>
-						          	<div class="property-color-bar"></div>
-						          	<img class="item-slide" src="{{ asset('images/projects/portada/3.jpg') }}" alt="" />
-						      	</a>
-						    </div>						
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="property property-hidden-content">
-						      	<a href="#" class="property-content">
-						        	<div class="property-title">
-						          		<h4>Residencial La Torre de San Francisco</h4>
-						          		<p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
-						        	</div>
-						        	<table class="property-details">
-						          		<tr>
-						            		<td><i class="fa fa-bed"></i> 3 Beds</td>
-						            		<td><i class="fa fa-tint"></i> 2 Baths</td>
-						            		<td><i class="fa fa-expand"></i> 25,000 m2</td>
-						          		</tr>
-						        	</table>
-						      	</a>
-						      	<a href="#" class="property-img">
-						          	<div class="img-fade"></div>
-						          	<!--div class="property-tag button alt featured">Featured</div-->
-						          	<div class="property-tag button status">For Sales</div>
-						          	<div class="property-price">
-						          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
-						          	</div>
-						          	<div class="property-color-bar"></div>
-						          	<img class="item-slide" src="{{ asset('images/projects/portada/3.jpg') }}" alt="" />
-						      	</a>
-						    </div>						
-						</div>		
-					</div>
-			        
-			      </div><!-- end agent properties -->
+			    
 			
 			</div><!-- end listing -->
 			

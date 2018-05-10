@@ -1,7 +1,29 @@
 @extends('web.layout')
 
 @section('styles')
-	<link rel="stylesheet" type="text/css" href="{{ asset('css/projects.css')}}">
+	<style type="text/css">
+		.property-content{	
+			padding: 3%;
+		}
+		.property-title{
+			border-bottom: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+		.property-price{
+			position: inherit;
+		}
+		.property-tag {
+		    position: absolute;
+		    padding: 8px 20px;
+		    font-size: 17px;
+		    z-index: 25;
+		}
+		.property-img img {
+		    height: 350px!important;
+		    width: inherit;
+		}
+	</style>
 @endsection
 
 @section('content')
@@ -20,13 +42,13 @@
 	    
 	        <div class="col-lg-6 col-md-6">
 	          <div class="property shadow-hover">
-	            <a href="{{ route('detalle-proyecto')  }}" class="property-img">
+	            <a href="{{ route('detalle-proyecto')  }}" class="property-img text-center athens-gray-background">
 	              <div class="img-fade"></div>
-	              <div class="property-label {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+	              <div class="property-label property-label-after {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
 						<span><i class="fa fa-home"></i>PROYECTO</span> 	
 					</div>
 	              <div class="property-tag button status {{ Request::is('proyectos') ? 'orange-button' : (Request::is('alquiler') ? 'green-button' : (Request::is('venta') ? 'blue-button' : '')) }}">Contactar</div>	              
-	              <div class="property-color-bar"></div>
+	              <div class="property-color-bar big-stone-background"></div>
 	              <img src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 	            </a>
 	            <div class="business">
@@ -35,13 +57,13 @@
 	            	</a>					
 				</div>
 	            <div class="property-content {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
-	              	<div class="property-title">
+	              	<div class="property-title ">
               			<a href="#">ALQUILO DEPA AMOBLADO EN URB. EL GOLF <p>Trujillo - La Libertad - Perú</p></a>
                 		<p class="property-price">$ 150,000</p>	              		
 	              	</div>
 	            </div>
-	            <div class="property-footer">
-					<table class="property-details">
+	            <div class="property-footer pampas-background">
+					<table class="property-details baltic-sea">
 						<tr>
 						  <td><i class="fa fa-bed"></i> 3 camas</td>
 						  <td><i class="fa fa-bath"></i> 2 baños</td>
@@ -54,13 +76,13 @@
 
 	        <div class="col-lg-6 col-md-6">
 	          <div class="property shadow-hover">
-	            <a href="{{ route('detalle-proyecto')  }}" class="property-img">
+	            <a href="{{ route('detalle-proyecto')  }}" class="property-img text-center athens-gray-background">
 	              <div class="img-fade"></div>
-	              <div class="property-label {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+	              <div class="property-label property-label-after {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
 						<span><i class="fa fa-home"></i>PROYECTO</span> 	
 					</div>
 	              <div class="property-tag button status {{ Request::is('proyectos') ? 'orange-button' : (Request::is('alquiler') ? 'green-button' : (Request::is('venta') ? 'blue-button' : '')) }}">Contactar</div>	              
-	              <div class="property-color-bar"></div>
+	              <div class="property-color-bar big-stone-background"></div>
 	              <img src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 	            </a>
 	            <div class="business">
@@ -69,13 +91,13 @@
 	            	</a>					
 				</div>
 	            <div class="property-content {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
-	              	<div class="property-title">
+	              	<div class="property-title ">
               			<a href="#">ALQUILO DEPA AMOBLADO EN URB. EL GOLF <p>Trujillo - La Libertad - Perú</p></a>
                 		<p class="property-price">$ 150,000</p>	              		
 	              	</div>
 	            </div>
-	            <div class="property-footer">
-					<table class="property-details">
+	            <div class="property-footer pampas-background">
+					<table class="property-details baltic-sea">
 						<tr>
 						  <td><i class="fa fa-bed"></i> 3 camas</td>
 						  <td><i class="fa fa-bath"></i> 2 baños</td>
@@ -88,13 +110,13 @@
 
 	        <div class="col-lg-6 col-md-6">
 	          <div class="property shadow-hover">
-	            <a href="{{ route('detalle-proyecto')  }}" class="property-img">
+	            <a href="{{ route('detalle-proyecto')  }}" class="property-img text-center athens-gray-background">
 	              <div class="img-fade"></div>
-	              <div class="property-label {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+	              <div class="property-label property-label-after {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
 						<span><i class="fa fa-home"></i>PROYECTO</span> 	
 					</div>
 	              <div class="property-tag button status {{ Request::is('proyectos') ? 'orange-button' : (Request::is('alquiler') ? 'green-button' : (Request::is('venta') ? 'blue-button' : '')) }}">Contactar</div>	              
-	              <div class="property-color-bar"></div>
+	              <div class="property-color-bar big-stone-background"></div>
 	              <img src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 	            </a>
 	            <div class="business">
@@ -103,13 +125,13 @@
 	            	</a>					
 				</div>
 	            <div class="property-content {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
-	              	<div class="property-title">
+	              	<div class="property-title ">
               			<a href="#">ALQUILO DEPA AMOBLADO EN URB. EL GOLF <p>Trujillo - La Libertad - Perú</p></a>
                 		<p class="property-price">$ 150,000</p>	              		
 	              	</div>
 	            </div>
-	            <div class="property-footer">
-					<table class="property-details">
+	            <div class="property-footer pampas-background">
+					<table class="property-details baltic-sea">
 						<tr>
 						  <td><i class="fa fa-bed"></i> 3 camas</td>
 						  <td><i class="fa fa-bath"></i> 2 baños</td>
@@ -122,13 +144,13 @@
 
 	        <div class="col-lg-6 col-md-6">
 	          <div class="property shadow-hover">
-	            <a href="{{ route('detalle-proyecto')  }}" class="property-img">
+	            <a href="{{ route('detalle-proyecto')  }}" class="property-img text-center athens-gray-background">
 	              <div class="img-fade"></div>
-	              <div class="property-label {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
+	              <div class="property-label property-label-after {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
 						<span><i class="fa fa-home"></i>PROYECTO</span> 	
 					</div>
 	              <div class="property-tag button status {{ Request::is('proyectos') ? 'orange-button' : (Request::is('alquiler') ? 'green-button' : (Request::is('venta') ? 'blue-button' : '')) }}">Contactar</div>	              
-	              <div class="property-color-bar"></div>
+	              <div class="property-color-bar big-stone-background"></div>
 	              <img src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 	            </a>
 	            <div class="business">
@@ -137,13 +159,13 @@
 	            	</a>					
 				</div>
 	            <div class="property-content {{ Request::is('proyectos') ? 'orange-background' : (Request::is('alquiler') ? 'green-background' : (Request::is('venta') ? 'blue-background' : '')) }}">
-	              	<div class="property-title">
+	              	<div class="property-title ">
               			<a href="#">ALQUILO DEPA AMOBLADO EN URB. EL GOLF <p>Trujillo - La Libertad - Perú</p></a>
                 		<p class="property-price">$ 150,000</p>	              		
 	              	</div>
 	            </div>
-	            <div class="property-footer">
-					<table class="property-details">
+	            <div class="property-footer pampas-background">
+					<table class="property-details baltic-sea">
 						<tr>
 						  <td><i class="fa fa-bed"></i> 3 camas</td>
 						  <td><i class="fa fa-bath"></i> 2 baños</td>

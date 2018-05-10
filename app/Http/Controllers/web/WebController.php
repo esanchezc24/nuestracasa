@@ -10,48 +10,11 @@ class WebController extends Controller
     public function index()
     {
         return view('web.pages.index');
-    }
+    } 
 
-    public function proyectos()
-    {
-        return view('web.pages.proyectos');
+    public function mapa(){
+        return view('web.pages.mapa');
     }
-
-    public function alquiler()
-    {
-        return view('web.pages.proyectos');
-    }
-
-    public function venta()
-    {
-        return view('web.pages.proyectos');
-    }
-
-    public function detalle_proyecto()
-    {
-        return view('web.pages.detalle_proyecto');
-    }
-
-    public function constructoras()
-    {
-        return view('web.pages.directorio');
-    }
-
-    public function proveedores()
-    {
-        return view('web.pages.directorio');
-    }
-
-    public function inmobiliarias()
-    {
-        return view('web.pages.directorio');
-    }
-
-    public function detalle_directorio()
-    {
-        return view('web.pages.detalle_directorio');
-    }
-
 
 
     /**

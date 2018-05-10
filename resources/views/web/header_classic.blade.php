@@ -68,7 +68,10 @@
 		            </ul>
 		          </li>
 		          <li class="">
-		            <a href="#">Noticias</a>
+		            <a href="{{ route('noticias')}}">Noticias</a>
+		          </li>
+		          <li class="">
+		            <a href="{{ route('mapa')}}">Mapa</a>
 		          </li>
 		        </ul>
 		        <div class="clear"></div>

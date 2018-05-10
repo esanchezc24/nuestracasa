@@ -1,21 +1,7 @@
 @extends('web.layout')
 
 @section('styles')
-	<style type="text/css">
-		.property-single-item .property-details-single td{
-			width: 20%;
-		}
-		.property-single-item .property-details-single td .fa {
-		    font-size: 28px;
-		    display: inline;
-		}
-		
-		.property-price-single{
-			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-			font-size: 35px;
-			top: -10px;
-    		position: relative;
-		}		
+	<style type="text/css">			
 		.dropdown-menu{
 			max-width: 160px;
 			min-width: 0; 
@@ -26,29 +12,6 @@
 		.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
 			background-color: white;
 		}
-		.estado{
-			display: inline-block;
-			font-size: 20px;
-			color: black;
-			font-weight: 600;
-			position: relative;
-		    right: 0;
-		    bottom: 0;
-		    text-transform: uppercase;
-		}
-		.estado span{
-			padding: 10px;
-			margin-right: 15px;
-		}
-		
-		textarea {
-		    resize: none;
-		}
-		
-		.module{
-			padding: 40px 0 40px 0;
-		}
-
 	</style>
 @endsection
 

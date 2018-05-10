@@ -1,7 +1,12 @@
 @extends('web.layout')
 
 @section('styles')
-	<link rel="stylesheet" type="text/css" href="{{ asset('css/index.css')}}">
+	<style type="text/css">
+		.property-cat{
+			background-size: 100% 100%;
+			height: 280px;
+		}
+	</style>
 @endsection
 
 @section('content')
@@ -49,10 +54,10 @@
 					          	<div class="img-fade"></div>
 					          	<!--div class="property-tag button alt featured">Featured</div-->
 					          	<div class="property-tag button status">For Sales</div>
-					          	<div class="property-price">
+					          	<div class="property-label red-background">
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 					          	</div>
-					          	<div class="property-color-bar"></div>
+					          	<div class="property-color-bar red-background"></div>
 					          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 					      	</a>
 					    </div>
@@ -76,10 +81,10 @@
 					          	<div class="img-fade"></div>
 					          	<!--div class="property-tag button alt featured">Featured</div-->
 					          	<div class="property-tag button status">For Sales</div>
-					          	<div class="property-price">
+					          	<div class="property-label red-background">
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
-					          	<div class="property-color-bar"></div>
+					          	<div class="property-color-bar red-background"></div>
 					          	<img class="item-slide" src="{{ asset('images/projects/portada/2.jpg') }}" alt="" />
 					      	</a>
 					    </div>
@@ -103,10 +108,10 @@
 					          	<div class="img-fade"></div>
 					          	<!--div class="property-tag button alt featured">Featured</div-->
 					          	<div class="property-tag button status">For Sales</div>
-					          	<div class="property-price">
+					          	<div class="property-label red-background">
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
-					          	<div class="property-color-bar"></div>
+					          	<div class="property-color-bar red-background"></div>
 					          	<img class="item-slide" src="{{ asset('images/projects/portada/3.jpg') }}" alt="" />
 					      	</a>
 					    </div>
@@ -130,10 +135,10 @@
 					          	<div class="img-fade"></div>
 					          	<!--div class="property-tag button alt featured">Featured</div-->
 					          	<div class="property-tag button status">For Sales</div>
-					          	<div class="property-price">
+					          	<div class="property-label red-background">
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
-					          	<div class="property-color-bar"></div>
+					          	<div class="property-color-bar red-background"></div>
 					          	<img class="item-slide" src="{{ asset('images/projects/portada/4.jpg') }}" alt="" />
 					      	</a>
 					    </div>
@@ -157,10 +162,10 @@
 					          	<div class="img-fade"></div>
 					          	<!--div class="property-tag button alt featured">Featured</div-->
 					          	<div class="property-tag button status">For Sales</div>
-					          	<div class="property-price">
+					          	<div class="property-label red-background">
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
-					          	<div class="property-color-bar"></div>
+					          	<div class="property-color-bar red-background"></div>
 					          	<img class="item-slide" src="{{ asset('images/projects/portada/5.jpg') }}" alt="" />
 					      	</a>
 					    </div>
@@ -183,10 +188,10 @@
 					      	<a href="#" class="property-img">
 					          	<div class="img-fade"></div>
 					          	<div class="property-tag button status">For Sales</div>
-					          	<div class="property-price">
+					          	<div class="property-label red-background">
 					          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span>
 					          	</div>
-					          	<div class="property-color-bar"></div>
+					          	<div class="property-color-bar red-background"></div>
 					          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 					      	</a>
 					    </div>
@@ -224,10 +229,10 @@
 				          	<div class="img-fade"></div>
 				          	<!--div class="property-tag button alt featured">Featured</div-->
 				          	<div class="property-tag button status">For Sales</div>
-				          	<div class="property-price">
+				          	<div class="property-label red-background">
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
-				          	<div class="property-color-bar"></div>
+				          	<div class="property-color-bar red-background"></div>
 				          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
@@ -251,10 +256,10 @@
 				          	<div class="img-fade"></div>
 				          	<!--div class="property-tag button alt featured">Featured</div-->
 				          	<div class="property-tag button status">For Sales</div>
-				          	<div class="property-price">
+				          	<div class="property-label red-background">
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
-				          	<div class="property-color-bar"></div>
+				          	<div class="property-color-bar red-background"></div>
 				          	<img class="item-slide" src="{{ asset('images/projects/portada/2.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
@@ -278,10 +283,10 @@
 				          	<div class="img-fade"></div>
 				          	<!--div class="property-tag button alt featured">Featured</div-->
 				          	<div class="property-tag button status">For Sales</div>
-				          	<div class="property-price">
+				          	<div class="property-label red-background">
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
-				          	<div class="property-color-bar"></div>
+				          	<div class="property-color-bar red-background"></div>
 				          	<img class="item-slide" src="{{ asset('images/projects/portada/3.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
@@ -305,17 +310,17 @@
 				          	<div class="img-fade"></div>
 				          	<!--div class="property-tag button alt featured">Featured</div-->
 				          	<div class="property-tag button status">For Sales</div>
-				          	<div class="property-price">
+				          	<div class="property-label red-background">
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
-				          	<div class="property-color-bar"></div>
+				          	<div class="property-color-bar red-background"></div>
 				          	<img class="item-slide" src="{{ asset('images/projects/portada/4.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>				
 			</div>
 			<div class="center">
-				<a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i>Ver Más Proyectos</a>
+				<a href="#" class="button button-icon more-properties-btn red-background"><i class="fa fa-angle-right"></i>Ver Más Proyectos</a>
 			</div>
 		</div>
 	</section>
@@ -348,10 +353,10 @@
 				          	<div class="img-fade"></div>
 				          	<!--div class="property-tag button alt featured">Featured</div-->
 				          	<div class="property-tag button status">For Sales</div>
-				          	<div class="property-price">
+				          	<div class="property-label red-background">
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
-				          	<div class="property-color-bar"></div>
+				          	<div class="property-color-bar red-background"></div>
 				          	<img class="item-slide" src="{{ asset('images/projects/portada/1.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
@@ -375,10 +380,10 @@
 				          	<div class="img-fade"></div>
 				          	<!--div class="property-tag button alt featured">Featured</div-->
 				          	<div class="property-tag button status">For Sales</div>
-				          	<div class="property-price">
+				          	<div class="property-label red-background">
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
-				          	<div class="property-color-bar"></div>
+				          	<div class="property-color-bar red-background"></div>
 				          	<img class="item-slide" src="{{ asset('images/projects/portada/2.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
@@ -402,10 +407,10 @@
 				          	<div class="img-fade"></div>
 				          	<!--div class="property-tag button alt featured">Featured</div-->
 				          	<div class="property-tag button status">For Sales</div>
-				          	<div class="property-price">
+				          	<div class="property-label red-background">
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
-				          	<div class="property-color-bar"></div>
+				          	<div class="property-color-bar red-background"></div>
 				          	<img class="item-slide" src="{{ asset('images/projects/portada/3.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
@@ -429,17 +434,17 @@
 				          	<div class="img-fade"></div>
 				          	<!--div class="property-tag button alt featured">Featured</div-->
 				          	<div class="property-tag button status">For Sales</div>
-				          	<div class="property-price">
+				          	<div class="property-label red-background">
 				          		<i class="fa fa-home"></i>en PROYECTO<span>S/. 101.900</span> 	
 				          	</div>
-				          	<div class="property-color-bar"></div>
+				          	<div class="property-color-bar red-background"></div>
 				          	<img class="item-slide" src="{{ asset('images/projects/portada/4.jpg') }}" alt="" />
 				      	</a>
 				    </div>						
 				</div>				
 			</div>
 			<div class="center">
-				<a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i> Ver Más Proyectos</a>
+				<a href="#" class="button button-icon more-properties-btn red-background"><i class="fa fa-angle-right"></i> Ver Más Proyectos</a>
 			</div>
 		</div>
 	</section>
@@ -476,7 +481,7 @@
 	        </a>
 	      </div>
 	      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-	        <a href="#" class="property-cat alertaroja">
+	        <a href="{{ route('alertaroja') }}" class="property-cat alertaroja">
 	        </a>
 	      </div>
 	      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -539,12 +544,12 @@
 	          <div class="property shadow-hover">
 	            <a href="#" class="property-img">
 	              <div class="img-fade"></div>
-	              <div class="property-color-bar"></div>
-	              <img src="images/property-img1.jpg" alt="" />
+	              <div class="property-color-bar red-background"></div>
+	              <img class="new-img" src="{{ asset('images/noticias/portada/1.jpg') }}" alt="" />
 	            </a>
 	            <div class="property-content">
 	              <div class="property-title">
-	              	<h4><a href="#">Noticia 1</a></h4>
+	              	<h4><a href="#" class="baltic-sea">Noticia 1</a></h4>
 	                <p class="property-address">El día 30 de Abril del 2018 estuvimos acompañando a la empresa RAMVAL en su tarde deportiva e ...</p>
 	              </div>
 	            </div>
@@ -563,12 +568,12 @@
 	          <div class="property shadow-hover">
 	            <a href="#" class="property-img">
 	              <div class="img-fade"></div>
-	              <div class="property-color-bar"></div>
-	              <img src="images/property-img3.jpg" alt="" />
+	              <div class="property-color-bar red-background"></div>
+	              <img class="new-img" src="{{ asset('images/noticias/portada/2.jpg') }}" alt="" />
 	            </a>
 	            <div class="property-content">
 	              <div class="property-title">
-	              	<h4><a href="#">Noticia 1</a></h4>
+	              	<h4><a href="#" class="baltic-sea">Noticia 1</a></h4>
 	                <p class="property-address">El día 30 de Abril del 2018 estuvimos acompañando a la empresa RAMVAL en su tarde deportiva e ...</p>
 	              </div>
 	            </div>
@@ -587,12 +592,12 @@
 	          <div class="property shadow-hover">
 	            <a href="#" class="property-img">
 	              <div class="img-fade"></div>
-	              <div class="property-color-bar"></div>
-	              <img src="images/property-img4.jpg" alt="" />
+	              <div class="property-color-bar red-background"></div>
+	              <img class="new-img" src="{{ asset('images/noticias/portada/3.jpg') }}" alt="" />
 	            </a>
 	            <div class="property-content">
 	              <div class="property-title">
-	              	<h4><a href="#">Noticia 1</a></h4>
+	              	<h4><a href="#" class="baltic-sea">Noticia 1</a></h4>
 	                <p class="property-address">El día 30 de Abril del 2018 estuvimos acompañando a la empresa RAMVAL en su tarde deportiva e ...</p>
 	              </div>
 	            </div>
@@ -608,7 +613,7 @@
 	        </div>
 	    </div><!-- end row -->
 
-	    <div class="center"><a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i> Ver Más Noticias</a></div>
+	    <div class="center"><a href="#" class="button button-icon more-properties-btn red-background"><i class="fa fa-angle-right"></i> Ver Más Noticias</a></div>
 
 	  </div><!-- end container -->
 	</section>

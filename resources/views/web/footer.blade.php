@@ -75,7 +75,7 @@
 
 <div class="bottom-bar">
     <div class="container">
-    © 2018 Nuestra Casa - Revista Inmobiliaria. <a href="http://rypecreative.com/" target="_blank">Pyrus Studio</a>  |  Todos los derechos reservados
+    © 2018 Nuestra Casa - Revista Inmobiliaria. <a href="http://pyrusstudio.com/" target="_blank">Pyrus Studio</a>  |  Todos los derechos reservados
     </div>
     <div class="container">
         <div class="col-md-offset-4 col-md-4"> 

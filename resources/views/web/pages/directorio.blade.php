@@ -2,27 +2,10 @@
 
 @section('styles')
 	<style type="text/css">
-		.property-row .property-address {
-		    font-size: 12px;
-		    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
-		    padding-bottom: 10px;
-		}
-		.property-row-sidebar .property-img {
-		    width: 35%;
-		}
-		.property-row-sidebar .property-content {
-		    width: 65%;
-		}
 		.property-img img {
 		    max-width: 100%;
 		    height: 245px!important;
-		}
-		.property-row .property-content {
-		   padding: 15px;
-		}
-		.property-row, .property-row .property-content {
-		   max-height: 245px!important;
-		}
+		}		
 		.property-title {
     		border-bottom: none;
     	}
@@ -46,12 +29,12 @@
 				
 				<div class="property property-row property-row-sidebar shadow-hover">
 					<a href="{{ route('detalle-directorio') }}" class="property-img text-center">
-						<div class="property-color-bar"></div>
+						<div class="property-color-bar baltic-sea-background"></div>
 						<img src="{{ asset('images/inmobiliarias/logo/1.jpg') }}" alt="" />
 					</a>
 					<div class="property-content">
 						<div class="property-title">
-							<h4><a href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
+							<h4><a class="baltic-sea" href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
 							<p class="property-address"><i class="fa fa-map-marker icon"></i>Prol. César Vallejo Mz. C Lt. 13 Urb. Las Praderas del Golf / Calle Los Granados N° 218 - Urb. California / Av. Vera Enriquez N° 820 Urb. Primavera - Trujillo - Peru</p>
 							<div class="clear"></div>
 							<p class="property-text">Somos MCH Grupo Inmobiliario, una institución dinámica e innovadora que pone especial énfasis en el impacto social que pueda tener todas y cada una de nuestras actividades a desarrollar, el respeto de los valores y principios por los que se rige y su profundo compromiso con sus clientes y grupos de interés que lo conforman p ...</p>
@@ -62,12 +45,12 @@
 
 				<div class="property property-row property-row-sidebar shadow-hover">
 					<a href="{{ route('detalle-directorio') }}" class="property-img text-center">
-						<div class="property-color-bar"></div>
+						<div class="property-color-bar baltic-sea-background"></div>
 						<img src="{{ asset('images/inmobiliarias/logo/2.jpg') }}" alt="" />
 					</a>
 					<div class="property-content">
 						<div class="property-title">
-							<h4><a href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
+							<h4><a class="baltic-sea" href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
 							<p class="property-address"><i class="fa fa-map-marker icon"></i>Prol. César Vallejo Mz. C Lt. 13 Urb. Las Praderas del Golf / Calle Los Granados N° 218 - Urb. California / Av. Vera Enriquez N° 820 Urb. Primavera - Trujillo - Peru</p>
 							<div class="clear"></div>
 							<p class="property-text">Somos MCH Grupo Inmobiliario, una institución dinámica e innovadora que pone especial énfasis en el impacto social que pueda tener todas y cada una de nuestras actividades a desarrollar, el respeto de los valores y principios por los que se rige y su profundo compromiso con sus clientes y grupos de interés que lo conforman p ...</p>
@@ -78,12 +61,12 @@
 
 				<div class="property property-row property-row-sidebar shadow-hover">
 					<a href="{{ route('detalle-directorio') }}" class="property-img text-center">
-						<div class="property-color-bar"></div>
+						<div class="property-color-bar baltic-sea-background"></div>
 						<img src="{{ asset('images/inmobiliarias/logo/3.jpg') }}" alt="" />
 					</a>
 					<div class="property-content">
 						<div class="property-title">
-							<h4><a href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
+							<h4><a class="baltic-sea" href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
 							<p class="property-address"><i class="fa fa-map-marker icon"></i>Prol. César Vallejo Mz. C Lt. 13 Urb. Las Praderas del Golf / Calle Los Granados N° 218 - Urb. California / Av. Vera Enriquez N° 820 Urb. Primavera - Trujillo - Peru</p>
 							<div class="clear"></div>
 							<p class="property-text">Somos MCH Grupo Inmobiliario, una institución dinámica e innovadora que pone especial énfasis en el impacto social que pueda tener todas y cada una de nuestras actividades a desarrollar, el respeto de los valores y principios por los que se rige y su profundo compromiso con sus clientes y grupos de interés que lo conforman p ...</p>
@@ -94,12 +77,12 @@
 
 				<div class="property property-row property-row-sidebar shadow-hover">
 					<a href="{{ route('detalle-directorio') }}" class="property-img text-center">
-						<div class="property-color-bar"></div>
+						<div class="property-color-bar baltic-sea-background"></div>
 						<img src="{{ asset('images/inmobiliarias/logo/4.jpg') }}" alt="" />
 					</a>
 					<div class="property-content">
 						<div class="property-title">
-							<h4><a href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
+							<h4><a class="baltic-sea" href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
 							<p class="property-address"><i class="fa fa-map-marker icon"></i>Prol. César Vallejo Mz. C Lt. 13 Urb. Las Praderas del Golf / Calle Los Granados N° 218 - Urb. California / Av. Vera Enriquez N° 820 Urb. Primavera - Trujillo - Peru</p>
 							<div class="clear"></div>
 							<p class="property-text">Somos MCH Grupo Inmobiliario, una institución dinámica e innovadora que pone especial énfasis en el impacto social que pueda tener todas y cada una de nuestras actividades a desarrollar, el respeto de los valores y principios por los que se rige y su profundo compromiso con sus clientes y grupos de interés que lo conforman p ...</p>
@@ -110,12 +93,12 @@
 
 				<div class="property property-row property-row-sidebar shadow-hover">
 					<a href="{{ route('detalle-directorio') }}" class="property-img text-center">
-						<div class="property-color-bar"></div>
+						<div class="property-color-bar baltic-sea-background"></div>
 						<img src="{{ asset('images/inmobiliarias/logo/1.jpg') }}" alt="" />
 					</a>
 					<div class="property-content">
 						<div class="property-title">
-							<h4><a href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
+							<h4><a class="baltic-sea" href="{{ route('detalle-directorio') }}">MCH INMOBILIARIA SAC</a></h4>
 							<p class="property-address"><i class="fa fa-map-marker icon"></i>Prol. César Vallejo Mz. C Lt. 13 Urb. Las Praderas del Golf / Calle Los Granados N° 218 - Urb. California / Av. Vera Enriquez N° 820 Urb. Primavera - Trujillo - Peru</p>
 							<div class="clear"></div>
 							<p class="property-text">Somos MCH Grupo Inmobiliario, una institución dinámica e innovadora que pone especial énfasis en el impacto social que pueda tener todas y cada una de nuestras actividades a desarrollar, el respeto de los valores y principios por los que se rige y su profundo compromiso con sus clientes y grupos de interés que lo conforman p ...</p>
@@ -143,7 +126,7 @@
 			<div class="col-lg-4 col-md-4 sidebar sidebar-property-single">
 			
 				<div class="widget widget-sidebar advanced-search">
-				  <h4 class="green-light-background"><span>Solicitar Información</span> <img src="{{ asset('images/divider-half-white.png') }}" alt="" /></h4>
+				  <h4 class="green-light-background"><span>Anuncia Con Nosotros</span> <img src="{{ asset('images/divider-half-white.png') }}" alt="" /></h4>
 				  <div class="widget-content box">
 					<form>
 					  <div class="form-block border">
