@@ -307,6 +307,12 @@ textarea {
     width: 100%;
 }
 
+.property-img .banco-img{
+    max-width: 100%;
+    height: auto!important;
+    width: inherit;
+}
+
 .nosotros {
     background-image: url(../images/servicios/01.jpg);
 }

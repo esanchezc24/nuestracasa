@@ -325,8 +325,15 @@
 				google.maps.event.addDomListener(window, 'load', initialize);
 			/*Fin informacion mapa*/
 
+			var id;
+		    $(window).resize(function() {
+		        clearTimeout(id);
+		        id = setTimeout( actualizarBusines, 50);    
+		    });
 
-			$('.business').css('bottom', parseInt($('.property-content').css('height')) + parseInt($('.property-footer').css('height')) + 10 );
+		    function actualizarBusines(){
+		        $('.business').css('bottom', parseInt($('.property-content').css('height')) + parseInt($('.property-footer').css('height')) + 10 );
+		    }
 		});
 	</script>
 @endsection

@@ -15,6 +15,7 @@ Route::get('/', [
     'uses' => 'web\WebController@index',
     'as' => '/',]);
 
+/*Paginas Generales*/
 Route::get('index', [
     'uses' => 'web\WebController@index',
     'as' => 'index',]);
@@ -68,3 +69,49 @@ Route::get('alertaroja', [
 Route::get('detalle-articulo', [
     'uses' => 'web\ArticulosController@detalle_articulo',
     'as' => 'detalle-articulo',]);
+
+/*Revista*/
+Route::get('revistas', [
+    'uses' => 'web\RevistaController@revistas',
+    'as' => 'revistas',]);
+
+Route::get('detalle-revista/{id}', [
+    'uses' => 'web\RevistaController@detalle_revista',
+    'as' => 'detalle-revista',]);
+
+/*Bancos*/
+Route::get('bancos', [
+    'uses' => 'web\BancosController@bancos',
+    'as' => 'bancos',]);
+
+Route::get('bcp', [
+    'uses' => 'web\BancosController@bcp',
+    'as' => 'bcp',]);
+
+Route::get('interbank', [
+    'uses' => 'web\BancosController@interbank',
+    'as' => 'interbank',]);
+
+Route::get('scotia', [
+    'uses' => 'web\BancosController@scotia',
+    'as' => 'scotia',]);
+
+Route::get('bn', [
+    'uses' => 'web\BancosController@bn',
+    'as' => 'bn',]);
+
+Route::get('gnb', [
+    'uses' => 'web\BancosController@gnb',
+    'as' => 'gnb',]);
+
+Route::get('bbva', [
+    'uses' => 'web\BancosController@bbva',
+    'as' => 'bbva',]);
+
+Route::get('banbif', [
+    'uses' => 'web\BancosController@banbif',
+    'as' => 'banbif',]);
+
+Route::get('mibanco', [
+    'uses' => 'web\BancosController@mibanco',
+    'as' => 'mibanco',]);

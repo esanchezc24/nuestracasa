@@ -460,17 +460,11 @@
 
 		<div class="row">
 	      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-	      	<a href="#" class="property-cat revista">
-	          <!--<h3>Family Homes</h3>
-	          <div class="color-bar"></div>
-	          <span class="button small">234 Properties</span>-->
+	      	<a href="{{ route('revistas') }}" class="property-cat revista">
 	        </a>	        
 	      </div>
 	      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 	        <a href="#" class="property-cat nosotros">
-	          <!--<h3>Family Homes</h3>
-	          <div class="color-bar"></div>
-	          <span class="button small">234 Properties</span>-->
 	        </a>
 	      </div>
 	    </div><!-- end row -->
