@@ -25,6 +25,7 @@ mix.styles([ /*estilos Index*/
 		'resources/assets/css/cozy-real-estate-font.css',
 		/*Estilos propios*/
 		'resources/assets/css/new-styles.css',
+		'resources/assets/css/bancos.css',
 		/*Camera Slider Plugin*/
 		'resources/assets/plugins/camera_slider/css/camera.css',
 		/*Owl Carousel */
