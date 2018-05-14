@@ -84,34 +84,34 @@ Route::get('bancos', [
     'uses' => 'web\BancosController@bancos',
     'as' => 'bancos',]);
 
-Route::get('bcp', [
+Route::get('bancos/bcp', [ /*muestra URI */
     'uses' => 'web\BancosController@bcp',
     'as' => 'bcp',]);
 
-Route::get('interbank', [
+Route::get('bancos/interbank', [
     'uses' => 'web\BancosController@interbank',
     'as' => 'interbank',]);
 
-Route::get('scotia', [
+Route::get('bancos/scotia', [
     'uses' => 'web\BancosController@scotia',
     'as' => 'scotia',]);
 
-Route::get('bn', [
+Route::get('bancos/bn', [
     'uses' => 'web\BancosController@bn',
     'as' => 'bn',]);
 
-Route::get('gnb', [
+Route::get('bancos/gnb', [
     'uses' => 'web\BancosController@gnb',
     'as' => 'gnb',]);
 
-Route::get('bbva', [
+Route::get('bancos/bbva', [
     'uses' => 'web\BancosController@bbva',
     'as' => 'bbva',]);
 
-Route::get('banbif', [
+Route::get('bancos/banbif', [
     'uses' => 'web\BancosController@banbif',
     'as' => 'banbif',]);
 
-Route::get('mibanco', [
+Route::get('bancos/mibanco', [
     'uses' => 'web\BancosController@mibanco',
     'as' => 'mibanco',]);
